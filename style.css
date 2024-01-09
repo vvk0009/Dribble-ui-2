@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240,252,240);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 120px;
+    height: 10vh;
+    width: 100%;
+}
+nav h1{
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+nav .last_nav{
+    display: flex;
+    gap: 20px;
+}
+nav .last_nav p{
+    font-weight: 600;
+}
+.hero_section{
+    padding-top: 120px;
+    padding-left: 120px;
+}
+.img_section img{
+    width: 600px;
+    position: absolute;
+    top: -50px;
+    right: 70px;
+}
+.text{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.text_p{
+    color: rgba(0, 0, 0, 0.708);
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.btn_1{
+    background-color: rgb(240,93,71);
+    color: white;
+    height: 45px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+}
+.btn_2{
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 200px;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-bottom: 40px;
+}
+.div{
+    display: flex;
+    gap: 80px;
+}
+.div p{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.644);
+}
+.div1 {
+    color: rgb(115,72,239);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.div2 {
+    color: rgb(242,99,147);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.div3 {
+    color: rgb(80,153,240);
+    font-size: 50px;
+    font-weight: 600;
+}
+.box{
+    height: 220px;
+    width: 1200px;
+    background-color: rgb(19,45,62);
+    margin-top: 80px;
+    margin-left: 120px;
+    border-radius: 20px;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box .img_1{
+    position: absolute;
+    bottom: .5px;
+    left: 50px;
+}
+.box .fa-solid{
+    position: absolute;
+    top: 140px;
+    right: 870px;
+    color: black;
+
+}
+.box input{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(255,196,188);
+    border: none;
+    border-radius: 5px;
+
+}
+.box input::placeholder{
+    padding-left: 40px;
+    font-weight: 600;
+    color: black;
+}
+.box button{
+    height: 50px;
+    width: 80px;
+    margin-left: -10px;
+    border: none;
+    background-color: rgb(239,92,72);
+    color: white;
+    font-weight: 600;
+}
+.box .div-2 p{
+    padding-left: 70px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.735);
+}
+.circle{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    background-color: white;
+    top: 10px;
+    border-radius: 400px;
+    z-index: -1;
+    top: 120px;
+    left: 910px;
+}
